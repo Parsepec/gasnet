@@ -80,7 +80,7 @@
 
 <script setup>
 import { ref } from "vue";
-import { ArrowDownIcon } from "@heroicons/vue/24/solid";
+import { ArrowDownIcon } from "@heroicons/vue/24/solid/esm/index.js";
 import {
   Listbox,
   ListboxButton,
