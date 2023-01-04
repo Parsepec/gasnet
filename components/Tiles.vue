@@ -10,7 +10,7 @@
     </div>
     <div class="flex flex-col">
       <div class="grid justify-self-end justify-items-end">
-        <img src="~/assets/Group 10440.png" alt="" class="justify-self-end justify-items-end">
+        <img src="~/assets/Group10440.png" alt="" class="justify-self-end justify-items-end">
       </div>
       <div class="flex text-md uppercase mt-3 font-medium text-gray-400 self-end"> 
         <p class="self-end">fuel sales <span class="text-green-500">541L</span> </p>

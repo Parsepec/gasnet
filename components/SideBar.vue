@@ -1,6 +1,8 @@
 <template>
-  <div class="w-2/12 px-10 bg-gray-50 h-full fixed top-14 left-0 z-10 overflow-x-hidden">
-    <div class="flex flex-col justify-center outline-blue-500  py-10">
+  <div
+    class="w-2/12 px-10 bg-gray-50 h-full fixed top-14 left-0 z-10 overflow-x-hidden hidden md:block"
+  >
+    <div class="flex flex-col justify-center outline-blue-500 py-10">
       <Listbox v-model="selectedPerson">
         <ListboxButton
           class="bg-white flex flex-row py-2 px-4 mb-2 outline-blue-500 outline border-blue-600 rounded-lg justify-between content-center"
@@ -30,24 +32,46 @@
     </div>
     <div class="mx-auto my-4 flex flex-col justify-center">
       <ul class="justify-self-center">
-        <li class="text-gray-600 hover:text-blue-600 flex flex-row items-center text-center ">
-          <Icon name="line-md:home" class="mr-4" /><span>Dashboard</span>
+        <li
+          class="text-gray-600 hover:text-blue-600 flex flex-row items-center text-center"
+        >
+          <Icon name="line-md:home" class="mr-4" /><span>
+            <NuxtLink to="/Dashboard"> Dashboard </NuxtLink></span
+          >
         </li>
       </ul>
-      <h3 class="uppercase font-[500] text-gray-400 text-xs tracking-wid mt-6 mb-4">analytics</h3>
+      <h3
+        class="uppercase font-[500] text-gray-400 text-xs tracking-wid mt-6 mb-4"
+      >
+        analytics
+      </h3>
 
       <ul class="justify-self-center">
-        <li class="text-gray-600 hover:text-blue-600 flex flex-row items-center text-center mb-3">
-          <Icon name="line-md:document-report" class="mr-4" /><span>Reports</span>
+        <li
+          class="text-gray-600 hover:text-blue-600 flex flex-row items-center text-center mb-3"
+        >
+          <Icon name="line-md:document-report" class="mr-4" /><span
+            ><NuxtLink to="/Reports"> Reports </NuxtLink></span
+          >
         </li>
-        <li class="text-gray-600 hover:text-blue-600 flex flex-row items-center text-center">
+        <li
+          class="text-gray-600 hover:text-blue-600 flex flex-row items-center text-center"
+        >
           <Icon name="line-md:laptop" class="mr-4" /><span>Expenses</span>
         </li>
       </ul>
-      <h3 class="uppercase font-[500] text-gray-400 text-xs tracking-wid mt-6 mb-4">support</h3>
+      <h3
+        class="uppercase font-[500] text-gray-400 text-xs tracking-wid mt-6 mb-4"
+      >
+        support
+      </h3>
       <ul class="justify-self-center">
-        <li class="text-gray-600 hover:text-blue-600 flex flex-row items-center text-center">
-          <Icon name="line-md:check-list-3-filled" class="mr-4" /><span>Catalogue</span>
+        <li
+          class="text-gray-600 hover:text-blue-600 flex flex-row items-center text-center"
+        >
+          <Icon name="line-md:check-list-3-filled" class="mr-4" /><span
+            >Catalogue</span
+          >
         </li>
       </ul>
     </div>
