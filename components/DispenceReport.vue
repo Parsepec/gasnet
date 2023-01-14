@@ -1,6 +1,8 @@
 <template>
-  <div class="py-4 px-3 border border-gray-200 rounded-lg min-h-full">
-    <div class="flex flex-row justify-between">
+  <div
+    class=" py-4 px-4 border border-gray-200 rounded-lg min-h-full"
+  >
+    <div class="flex flex-row justify-between mt-6">
       <h1 class="text-lg font-bold text-gray-900">
         Dispense Reports<br /><span class="text-sm text-gray-500 font-medium"
           >By Tank</span
@@ -52,11 +54,27 @@
         </transition>
       </Menu>
     </div>
-    <div class="mt-12 px-3">
-      <ProgressBar title="PMS 1" volume="13,130" class="bg-yellow-500 w-9/12" />
-      <ProgressBar title="PMS 2" volume="7,974" class="bg-yellow-500 w-8/12" />
-      <ProgressBar title="DPK" volume="4,211" class="bg-blue-500 w-6/12" />
-      <ProgressBar title="AGO" volume="1,893" class="bg-blue-500 w-3/12" />
+    <div class="grid grid-auto-row content-between min-h-full  mt-12 px-3 h-[24rem]">
+      <div>
+        <ProgressBar
+          title="PMS 1"
+          volume="13,130"
+          class="bg-blue-500 w-9/12"
+        />
+        <ProgressBar
+          title="PMS 2"
+          volume="7,974"
+          class="bg-blue-500 w-8/12"
+        />
+        <ProgressBar title="DPK" volume="4,211" class="bg-yellow-500 w-6/12" />
+        <ProgressBar title="AGO" volume="1,893" class="bg-yellow-500 w-3/12" />
+      </div>
+      <div class="flex flex-row justify-between ">
+        <div>
+          <h1 class="text-gray-800 text-lg font-medium">Total volume</h1>
+        </div>
+        <div><p class="text-md text-green-600 font-bold">27,460</p></div>
+      </div>
     </div>
   </div>
 </template>
