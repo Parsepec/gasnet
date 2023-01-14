@@ -18,6 +18,9 @@
     "@formkit/nuxt": "1.0.0-beta.12",
     "@headlessui/tailwindcss": "^0.1.2",
     "@headlessui/vue": "^1.7.5",
-    "@heroicons/vue": "^2.0.13"
+    "@heroicons/vue": "^2.0.13",
+    "chart.js": "^4.1.2",
+    "rambda": "^7.4.0",
+    "vue-chartjs": "^5.1.0"
   }
 }

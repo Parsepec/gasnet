@@ -1,5 +1,6 @@
 <template>
-  <TabGroup>
+  <Heading/>
+  <TabGroup as="div" class="mt-10">
     <TabList class="flex space-x-6 rounded-xl text-gray-600 p-1 w-9/12">
       <Tab
         v-for="category in Object.keys(categories)"

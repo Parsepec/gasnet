@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row px-3 py-2 border justify-between rounded-lg mx-3 lg:w-1/4">
+  <div class="flex flex-row px-3 py-2 border justify-between rounded-xl mx-3 lg:w-1/4">
     <div class="flex flex-col">
       <div class="text-sm mb-4">
         <p class="text-gray-500 font-medium text-sm ">TANK 1 - PMS</p>

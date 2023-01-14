@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-row rounded-md border justify-between border-gray-200 w-full mx-auto py-6"
+    class="flex flex-row rounded-xl border justify-between border-gray-200 w-full mx-auto py-6"
   >
     <div>
       <p class="font-[600] text-gray-700 text-xl ml-6 self-start">Total Revenue</p>
